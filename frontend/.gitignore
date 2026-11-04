@@ -1,0 +1,23 @@
+<CodeBlock language="gitignore" editable>
+# Java and Maven
+target/
+*.class
+*.jar
+*.war
+
+IDE files
+.vscode/
+.idea/
+*.iml
+Environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+Logs
+*.log
+Operating system
+.DS_Store
+Thumbs.db
+</CodeBlock>
